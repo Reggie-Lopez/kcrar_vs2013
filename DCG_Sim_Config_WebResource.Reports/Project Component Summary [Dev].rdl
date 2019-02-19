@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="List1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>7.0625in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>1.97in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="List1_Contents">
+                      <ReportItems>
+                        <Tablix Name="table1">
+                          <TablixBody>
+                            <TablixColumns>
+                              <TablixColumn>
+                                <Width>1in</Width>
+                              </TablixColumn>
+                              <TablixColumn>
+                                <Width>1in</Width>
+                              </TablixColumn>
+                              <TablixColumn>
+                                <Width>1.29167in</Width>
+                              </TablixColumn>
+                              <TablixColumn>
+                                <Width>3.77083in</Width>
+                              </TablixColumn>
+                            </TablixColumns>
+                            <TablixRows>
+                              <TablixRow>
+                                <Height>0.23083in</Height>
+                                <TablixCells>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="textbox4">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Start Date</Value>
+                                                <Style>
+                                                  <FontWeight>ExtraBold</FontWeight>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>textbox4</rd:DefaultName>
+                                        <Style>
+                                          <BackgroundColor>CornflowerBlue</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="textbox5">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>End Date</Value>
+                                                <Style>
+                                                  <FontWeight>ExtraBold</FontWeight>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>textbox5</rd:DefaultName>
+                                        <Style>
+                                          <BackgroundColor>CornflowerBlue</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="Textbox3">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Owner</Value>
+                                                <Style>
+                                                  <FontWeight>ExtraBold</FontWeight>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox3</rd:DefaultName>
+                                        <Style>
+                                          <BackgroundColor>CornflowerBlue</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="Textbox6">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Description</Value>
+                                                <Style>
+                                                  <FontWeight>ExtraBold</FontWeight>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox6</rd:DefaultName>
+                                        <Style>
+                                          <BackgroundColor>CornflowerBlue</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                </TablixCells>
+                              </TablixRow>
+                              <TablixRow>
+                                <Height>0.23083in</Height>
+                                <TablixCells>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="textbox8">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>="Component: " + Fields!dcgredg_component1_dcgredg_componenttype.Value</Value>
+                                                <Style>
+                                                  <FontWeight>Bold</FontWeight>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>textbox8</rd:DefaultName>
+                                        <Style>
+                                          <BackgroundColor>LightGrey</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                      <ColSpan>4</ColSpan>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell />
+                                  <TablixCell />
+                                  <TablixCell />
+                                </TablixCells>
+                              </TablixRow>
+                              <TablixRow>
+                                <Height>0.23083in</Height>
+                                <TablixCells>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="dcgredg_component1_dcgredg_startdate">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=formatdatetime(Fields!dcgredg_component1_dcgredg_startdate.Value, dateformat.ShortDate)</Value>
+                                                <Style />
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>dcgredg_component1_dcgredg_startdate</rd:DefaultName>
+                                        <ActionInfo>
+                                          <Actions>
+                                            <Action>
+                                              <Hyperlink>=Fields!Component_URL.Value</Hyperlink>
+                                            </Action>
+                                          </Actions>
+                                        </ActionInfo>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="dcgredg_component1_dcgredg_enddate">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=formatdatetime(Fields!dcgredg_component1_dcgredg_enddate.Value, dateformat.ShortDate)</Value>
+                                                <Style />
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>dcgredg_component1_dcgredg_enddate</rd:DefaultName>
+                                        <ActionInfo>
+                                          <Actions>
+                                            <Action>
+                                              <Hyperlink>=Fields!Component_URL.Value</Hyperlink>
+                                            </Action>
+                                          </Actions>
+                                        </ActionInfo>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="dcgredg_component1_ownerid">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=Fields!dcgredg_component1_ownerid.Value</Value>
+                                                <Style />
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>dcgredg_component1_ownerid</rd:DefaultName>
+                                        <ActionInfo>
+                                          <Actions>
+                                            <Action>
+                                              <Hyperlink>=Fields!Component_URL.Value</Hyperlink>
+                                            </Action>
+                                          </Actions>
+                                        </ActionInfo>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="dcgredg_component1_dcgredg_description">
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=Fields!dcgredg_component1_dcgredg_description.Value</Value>
+                                                <Style />
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>dcgredg_component1_dcgredg_description</rd:DefaultName>
+                                        <ActionInfo>
+                                          <Actions>
+                                            <Action>
+                                              <Hyperlink>=Fields!Component_URL.Value</Hyperlink>
+                                            </Action>
+                                          </Actions>
+                                        </ActionInfo>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                      <rd:Selected>true</rd:Selected>
+                                    </CellContents>
+                                  </TablixCell>
+                                </TablixCells>
+                              </TablixRow>
+                            </TablixRows>
+                          </TablixBody>
+                          <TablixColumnHierarchy>
+                            <TablixMembers>
+                              <TablixMember />
+                              <TablixMember />
+                              <TablixMember />
+                              <TablixMember />
+                            </TablixMembers>
+                          </TablixColumnHierarchy>
+                          <TablixRowHierarchy>
+                            <TablixMembers>
+                              <TablixMember>
+                                <KeepWithGroup>After</KeepWithGroup>
+                                <RepeatOnNewPage>true</RepeatOnNewPage>
+                                <KeepTogether>true</KeepTogether>
+                              </TablixMember>
+                              <TablixMember>
+                                <Group Name="table1_dcgredg_component1_dcgredg_componenttype">
+                                  <GroupExpressions>
+                                    <GroupExpression>=Fields!dcgredg_component1_dcgredg_componenttype.Value</GroupExpression>
+                                  </GroupExpressions>
+                                </Group>
+                                <SortExpressions>
+                                  <SortExpression>
+                                    <Value>=Fields!dcgredg_component1_dcgredg_componenttype.Value</Value>
+                                  </SortExpression>
+                                </SortExpressions>
+                                <TablixMembers>
+                                  <TablixMember>
+                                    <KeepWithGroup>After</KeepWithGroup>
+                                    <KeepTogether>true</KeepTogether>
+                                  </TablixMember>
+                                  <TablixMember>
+                                    <Group Name="table1_Details_Group">
+                                      <DataElementName>Detail</DataElementName>
+                                    </Group>
+                                    <TablixMembers>
+                                      <TablixMember />
+                                    </TablixMembers>
+                                    <DataElementName>Detail_Collection</DataElementName>
+                                    <DataElementOutput>Output</DataElementOutput>
+                                    <KeepTogether>true</KeepTogether>
+                                  </TablixMember>
+                                </TablixMembers>
+                              </TablixMember>
+                            </TablixMembers>
+                          </TablixRowHierarchy>
+                          <DataSetName>DataSet1</DataSetName>
+                          <Top>0.92361in</Top>
+                          <Height>0.6925in</Height>
+                          <Width>7.0625in</Width>
+                          <Style />
+                        </Tablix>
+                        <Textbox Name="textbox1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Project Name: </Value>
+                                  <Style>
+                                    <FontSize>18pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>CornflowerBlue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>=Fields!dcgredg_name.Value</Value>
+                                  <Style>
+                                    <FontSize>18pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>CornflowerBlue</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>textbox1</rd:DefaultName>
+                          <ActionInfo>
+                            <Actions>
+                              <Action>
+                                <Hyperlink>=Fields!Project_URL.Value</Hyperlink>
+                              </Action>
+                            </Actions>
+                          </ActionInfo>
+                          <Height>0.46in</Height>
+                          <Width>5.23958in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="Image1">
+                          <Source>Embedded</Source>
+                          <Value>logo</Value>
+                          <Sizing>FitProportional</Sizing>
+                          <Left>6.34375in</Left>
+                          <Height>0.71875in</Height>
+                          <Width>0.71875in</Width>
+                          <ZIndex>2</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Image>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style />
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="list1_dcgredg_name">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!dcgredg_name.Value</GroupExpression>
+                </GroupExpressions>
+                <PageBreak>
+                  <BreakLocation>Between</BreakLocation>
+                </PageBreak>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!dcgredg_name.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <PageBreak>
+          <BreakLocation>End</BreakLocation>
+        </PageBreak>
+        <Height>1.97in</Height>
+        <Width>7.0625in</Width>
+        <Style />
+      </Tablix>
+    </ReportItems>
+    <Height>3.36083in</Height>
+    <Style />
+  </Body>
+  <Width>9.52083in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>MSCRMFETCH</DataProvider>
+        <ConnectString>https://dcgreggie.crm.dynamics.com</ConnectString>
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>6dda6ae2-0d19-40ce-ae46-d1446ce559c3</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>&lt;fetch distinct="false" useraworderby="false" no-lock="false" mapping="logical"&gt;&lt;entity name="dcgredg_project" &gt;&lt;attribute name="dcgredg_name" alias="dcgredg_name" /&gt;&lt;attribute name="dcgredg_projectid" /&gt;&lt;link-entity name="dcgredg_component" to="dcgredg_projectid" from="dcgredg_project" link-type="outer" alias="dcgredg_component1" &gt;&lt;attribute name="dcgredg_componenttype" alias="dcgredg_component1_dcgredg_componenttype" /&gt;&lt;attribute name="dcgredg_startdate" alias="dcgredg_component1_dcgredg_startdate" /&gt;&lt;attribute name="dcgredg_enddate" alias="dcgredg_component1_dcgredg_enddate" /&gt;&lt;attribute name="ownerid" alias="dcgredg_component1_ownerid" /&gt;&lt;attribute name="dcgredg_description" alias="dcgredg_component1_dcgredg_description" /&gt;&lt;attribute name="dcgredg_componentid" /&gt;&lt;attribute name="dcgredg_name" /&gt;&lt;/link-entity&gt;&lt;/entity&gt;&lt;/fetch&gt;</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="dcgredg_name">
+          <DataField>dcgredg_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_projectid">
+          <DataField>dcgredg_projectid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_componenttype">
+          <DataField>dcgredg_component1_dcgredg_componenttype</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_componenttypeValue">
+          <DataField>dcgredg_component1_dcgredg_componenttypeValue</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_startdate">
+          <DataField>dcgredg_component1_dcgredg_startdate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_startdateValue">
+          <DataField>dcgredg_component1_dcgredg_startdateValue</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_enddate">
+          <DataField>dcgredg_component1_dcgredg_enddate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_enddateValue">
+          <DataField>dcgredg_component1_dcgredg_enddateValue</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_ownerid">
+          <DataField>dcgredg_component1_ownerid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_owneridValue">
+          <DataField>dcgredg_component1_owneridValue</DataField>
+          <rd:TypeName>System.Guid</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_owneridEntityName">
+          <DataField>dcgredg_component1_owneridEntityName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_description">
+          <DataField>dcgredg_component1_dcgredg_description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_componentid">
+          <DataField>dcgredg_component1_dcgredg_componentid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dcgredg_component1_dcgredg_name">
+          <DataField>dcgredg_component1_dcgredg_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Project_URL">
+          <Value>="https://dcgreggie.crm.dynamics.com/main.aspx?etc=10256&amp;extraqs=formid%3ddff53a03-f4d5-44a2-9143-536de16a315f&amp;id=%7b" + CStr(Fields!dcgredg_projectid.Value) + "%7d&amp;pagetype=entityrecord"</Value>
+        </Field>
+        <Field Name="Component_URL">
+          <Value>="https://dcgreggie.crm.dynamics.com/main.aspx?etc=10257&amp;extraqs=formid%3dcae1f45c-7c1c-4230-bcb4-f2aa560fb89c&amp;id=%7b" + CStr(Fields!dcgredg_component1_dcgredg_componentid.Value) + "%7d&amp;pagetype=entityrecord"</Value>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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
+PtPVx82BBdamiVX0Twa7uP0GsMA6T6y+q9gtB7DAOk2svPfEvjZ2MwsssE4Tq70ssFrvFYKVbGJd7nMuNjx0FCywZiZWHXh8QwkWWLETa/C2ThfxcfZggdWbWP2B1ZyJudAPrMiJ1dtqaC7DqwQLrAQTq+hPqa2fEA0WWOOJlffXVcXGYyFYYI0n1vCxfe22YyFYYI0n1vDgV4AFVpKJNX6A7bYNB7DAGk2s8YjatnoHC6zRxMpHq/UWLLBSTKwxrBwssFJNrGwEy7MbwEoyscACK/nEasECy8QC6489K7R4B+suZ4W2G8BKNrFKsMB6wM67t3TASnB1w/Wb0GCBlejqhmawdnd1A1jJr8dyoR9YCa8gPVvKXZoMVspr3uvewKrBAivFXTrt6Nkg7tIBK8l9hYeng9Rd122/xx4ssK4mVla5xR6sO0yswaPeNz5uBiywridWFj2wwAIrMLH6zzHy4DWw0k2s3oOMGrDASjaxLrI2ugILrODEOn7Cqg9pAivxxIoNLLDCEwsssEwssEwssEwssMAyscAyscAyscACy8QCy8QCy8QCCywTCywTCywTCyywTCywfreJVYEFVmpY1ebHyoAF1lSHz+xtN9+RAxZYwfLIW73AAusGrAYssNLByiLvIQQLrOlFVtojIVhg9W58zsACKyWs4yqrAQustLB+HgxTugILrGNJWYEF1p0CCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDA
+AgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgusXwErr35WgwUWWGD9/rDaA6wKrD+u16L78ZPrmncTaz+wvlajhj//0//PIxPHL38ZfvUl9M2v3eW1myV/wuL4zSVYTwVr+PM//mev3oKwyuFXPx2/OYTt+OP7cPtPePpX1g89FIL1AFi9n//plz8PD26n7wu+Vv+r38YvfVPWedFTPXRiWWM9AtZF1mngfAke86pbB8hv1y99S1Z2GZwOhU8Hq6rfh4TqMKyhkqvp9lfopd+Xwiqf4VD4rfvZP2BVg+VT+KB3/ofeQgfIt/EXRmbnf0PF5RufYWLli/7QO4J14hE8LTwvgz7PnhTms688/5N42CLrzmusPHias2dY9dDQhyCscu6k8GXqpWcPhm312EVWa2I9FtZxsHwNjJnX8GFtfFLYTr3yl7nfUPVgWI85FJpY45H1KXDQ642imZPCyYE1O7L66/3SGusZYR2Ofi+Bg95LePOgHRJsp1/58/Tv51Of9hO8V2hiTRyxQqeFX4ML8dFJ4czAmtvLGiz4Taw/H9bH7z/6N+vGx8LAQa8Nzp6XoZq+kO7j+9/fiyq4
+5J9euz9mkWWNdV9Y5yHy2g6XQoHTwrYKGXkZCOzvYX0cvfLMEmu49VU6K3weWD1Zb+HTwtf/2Lvj/ER1IIDjFvYAKBxAjQeA2ANUuvc/09ttq2SSmQSs7VbfL5/3x+tapcKXyWQSQK92ykFhq008++KgMJqzpo71QLCmg7vTh4Xi4Fu70GsJ1bvZ0/yUzzjMR/++wEd56X3tlzuqb9PeZXSFtRcfo/ypL8fgtOre/yaXrDnLRKyXt7ccf2V2h9jGxxtc9h0/GdYFxVYfFrZ65UAC1ItWbamKdV6Pk0uypmTtaI7x/hxilVVqSO0Kax+leTJWn88Rl85DxWvOzIjVeH0tkbmNxi9b2PYDYW3Cfi4dFo7q/IwcFLbGzGBVqLufd1wGlrf7yjqT+XvjJS1i1ckm4oP+Hntdesin+XttSuuk1uv2zyossY1oociMhW0/EFYj+rmk06vUklQjPmg0JgabXA1r+pAzg23eVcZDLMtbLyk5Vp1uIj7oPjhrXq1Z9tGGFRVjnjVY4TbSBUjPdwhLWkqGhfr0jBwUeqvIXmUD1uZ8LM0iQBwFwt9IVsJarsJ3pV1hrXxMdNBfA0KttTIkE7Eau7KnbkNbgHS6Q1jCUjws7LKnp5P4DteNoS4H186vUj1Jqd+ZHNOXnO3z7ybkVw/Tg8YuANuwvLX+Td+GOo1xjxGrCv8xHhY2OiyRpTbzlsiYufvl6PbZjlCIqPc2usxLVRHh39fkQQ+T0MpeGWLCes1MzGvb0KYx3D3CGrXZwkPUXekn4U6mEMv+mG6KU3qJVDuKvYnnosXbLyVzhbW6Cfn3+eDgjvaclZVjdblpLm0bWsDa3TOsIYw+Tr64k2+Ug8LNjMmbTHnULIjvbT3qqsLefltvRCw1Aq3WqghnzYkeshFrzCzZVbfRLF4ueQ8Rax3B+thdg1zMoA8Kd1f9Mc4qiOtLUnsTzwcX9W1bA5b6ORlYa/UNOVhddi2Rto1x+aUD9wArmuI7
+/1SJHlIfFF6dYl16pD6fYV2I1PrRsq3s9VFhNecKgH2hm/rYcwasNruWSNuG//IU618k79FFq5fh8Cj2+aa8oLncQkwKLAOPs829vV1U6pOaeqU6ey/dH6PDqMLamEqMHKvKrgXXtjF909O6e/8TD3cJS7rYCFjN+fu22ghou9aLqrNaEx5ypURahTcCOHoRe4IjcayPIppVkpJXczMX9YROUn6yYbVnhy+B7q0dsTrBvo7Td2UbcZb74m+eYn0zrNM6HRZuzj80Wud3WGtp2cy2CYOHkr17I3USUUlmXNvg/+Pho9YVxtf369E6XbH2K6ojOHsSupWSmqgvVLbRKkub7nJKp5MBpxGJxnlQePktkeHLA7AQVqWxUcaEURWhT6PSGZoL3paM+3olYlVGBWybLhj6dep+f5xTU3lzjGN1Ogkdz3Y1+9I22nRvHu9yEjq+/Fn8WF32ildqEk+fgSV6vzR7r/S6Z6+Ze/9lp1pZabD24qW0MB8f9EDKZnI1/cbJjFg+/oRKYFS2sfmGNV3fAquKXHhl6vAkS6LyYtXmqjJWpxaftgksedRl1yf0WKGvCj9ZdoVpXVYvFISnTPNkjnuUiNUl04PyX5RtPAqsJp5mCHdWsFwoHBbKQeF1sNpsHWBKsfpwmNiL8CYml5142zYZXbq0K1SmKL160J9KX2KwIpZyNwxRnFG2sfmG5c3fAcvHxd1wWNhMXzL8vtUNYI36wD9JscKjHtUMQj3ROG+bJmspLCWxq7SD7ooj28GKWK19GcrO2Eb7NcX274ZVJadM+MXbKZiFw0I5KLwOllGqjDmE48R6ZeTcf1qvZVQpLG8qEx8tD/pQ7M93VsRSLi0Xu0vZRvt1C0e/DdbvqYAYLIoNvvg47bdwWKgPdJbBikJLXfh55lWn2gIcb1lSime1cpFlbj5Fh7VNzlvlPc7YRlCq75/uDVZmWlR88bBnmDRFHcBVo8LGGunfHlYVbKkEa6VEE7deCssl
+cVmL1cY2RGnLzbtH8E+GNSRZlxgUhsPCVp9IXQRrEwuIusa6vA7eZS+90GevvQLLmnDprEjcBcX+QsTSYIVRTNtG9NnH013DctoYugsD+XjpJTZRfL8GlrniLpNHZdKv/IqIJGLlpqsTWPFEXW0vl0oilmZzVGAdFHj3eJVOZk1jmHA24X6ahoXx7rtmrtBbsPrylaWZXjIDa5t0hTNh7dRTYl7E0mxuFFg75XW1Pnt3sE7aeLgNd0sbXVAy7a0rVjdcuoB61X/8J7l8ESw/D9behlXt98sjlgrrZGyj+/J1ft8I66Dk1YdwUDh931NyW9tq+de3707jfkLEErCG8h9eili7EqyhYPd0p7CcFk2cGBROw8K4KnjZEbvlubu5JO9rYS3KsQZtKciNI9awzoesw53CetLyn70YFE7DwuS2tlesefdzYd04efdX5FhDOdJ+OscaCvHc3SesQU9Pf8uk/DwsjAeF11ylsy9Elp+UvA+lDKtcxyqOCqMj8PrFWdY3wXo2fquXu+k8LBzjvbf8usKmCOuL6ljVFXWsoXxCfLqOFe+5xhtbuCNY7mRl1tHo77wCzSfhfXEmkEmxopUHN6i8m2/11iZkqqPM8+3dr9tW3tNT8uX4hRWHb4Cl3X6p1U+WxjyHvNUXvubLo5kk65Ow+jm3ijQjnwkrucuTv9FcoRbrRYHf3Qes93uQ/v6dLzLFX9rs9UejL+ysztHnYPVzM/R+Wf41Z9lMAdYmHrfcanWDsZ+6en/dlSr/eHXDvDHbSf/nJyXEJU+ec3PkqknW59ZjuTn3IDWBmrCsrs6EtZm5HsvMTjv/uLCMDkyFcohT9N2y8miaWfdhNDJXkFbRCtL9nHuQmt1tCdZh9uqGuStIh2Ip+SFgjXoJZWNWViq1IuatmvEmC2ufWfO+ste8b61otjpad/RTomLd52D5OP6UYM1d8z4UJ79OjwBroxd9W3OYot41uTJHin4BLLliy63sq3T6+PLD
+S0LfG5WKfarQuxkRaxfnS7to/56Sr1q4SkfAqk9Krv8QEavVR3+NWVhZeJ/3Keip/dQ2c12hW9nXFeqXhk0XWpjXFU7yauXGa5mucDRgDWksH6J9uLVhiQpQ80iwOmP0Z5eCK1HBKDyZYprlzsHyemHLKVdCh/lYPJv9tvq611d9VdHnvN2+wS1I3n0EaxPmCZU8R5/kubkzYTUi7j9UjrU2Jta9Ob246Fk6wXUoahHK3eTeDX/f1h+PMnxFpSvxOfXHRnobVrT/XuPwPQ2Pf628uIDu7XNfzHs3DHEi0kejQvcYsLw++qv0fy6kTTurPPoUwVqpJVJtzOjtClidqY0lF+Z4fQvFOtY2Opv0GvKQ2THO3MZ59/R/An93udrl8BiwRn30t7ErwUueVxiUZvSSen/z+2M5HZY+A9AXK+9/p3SC3v4Cq0vXusy7P9ZQOkd3jwFro68EajNzV37OGkKxM10Cq1IXOGTq8pqeKrMYJylz5S5Yys0VWofdm1PZ+tmmbKObl0/cJ6xWP1WazBk0/5nQYel5lUmybnkP0mjFs8svs1kYTYK9MaafM2bsZqPiPa7HKsHq9NFfl1sfVM1a6xWEw8GEtbeP+jYTalZldMnFQQvzn7EAq03PqVl3TR4Km9g9CKy1EXB8JjR3+5mnWhV88iqTvd/wPu9xtu7yt/xe50oBolml+PCdc+7zPhSC4ulRYHl99FflJtvbmXsk/IhVLnu/9skUdXFUuM8/pMCGFR/2MYY1KnHG20vgunyx8IuWvP9DWKMeccZsn/86K+cUy0ZWuew9jSczn6VTWR1o2hUq8W2VgyXPnvMy7Z0et7dGyv+0Xi/KsW5+S6N/B2ujnyttfkHj65yxjFg2sspm7zd6+ld61y23yj6lKQNLppKnBJbYB063ojz9a8ien6fHgdXqWWNbiM1zHrMn5tNW+STrJs8rlMtrSkKzqxuijm1Yp7BCeYOammnPKxTbiBa83/xphf8SlnF9
+RPGWUd0xyYGt9O2Ug9V/9gmrtVfNVSrRY2QwC2uS87zWYE33dnjWrOhPWI228RrQ+or7zazW99ea90N6nLc/5jwg/PjxgQufCZ17rbCNwh/9dp1D5gZD6uszngktfr0+LtiN/wdYC7/hj2yPv9uBBSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABiwYsGg1YNGDRgEWjAYsGLBqwaDRg0YBFAxYNWDQasGjAogGLRgPW0m/IeixgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAGLRgMWDVg0YNFowKIBiwYsGg1YNGDRgEWjAYsGLBqwaDRg0YBFA9adfkPWYwELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIWsIAFLGABC1jAAhawgAUsYAELWMACFrCABSxgAQtYwAIW
+sIAFLGD9184dEwEAwCAQ8+8aDayQd9Bexl7BAgsssMACCyywwAILLLDAAgssCSyBJbAksASWwJLAElgCSwJLYAksCSyBJbA2JnSPBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggeWNkcASWAJLAktgCSwJLIElsCSwBJbAksASWAJrckL3WGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFlhg/cESWAJLAktgCSwJLIElsCSwBJbAksASWAJLAktgCSwJLIElsCSwBJbAksASWAJLAktgCSwJLIElsASWFQgsgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwJLAElsCSwBJYAksCS2AJLAksgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJYElsASWBJYAktgSWAJLIElgSWwBJbAksASWAJLAktgCSwJLIElsCSwBJbAksASWAJLAktgCSwJLIElsCSwBJbAksASWAJLAktgCSwJLIElsKS+AFvj0hAi3VqUAAAAAElFTkSuQmCC</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0b8617da-b90d-4804-8238-b9b60f899dd7</rd:ReportID>
+</Report>
